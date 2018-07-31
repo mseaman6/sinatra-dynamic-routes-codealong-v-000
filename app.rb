@@ -23,7 +23,7 @@ class App < Sinatra::Base
     @num1 = params[:num1]
     @num2 = params[:num2]
     @multiplied_nums = @num1 * @num2
-    "#{@multiplied_nums}"
+    "The answer is #{@multiplied_nums}"
   end
 
 end
